@@ -58,6 +58,7 @@ This project is a backend system built using Django (without Django REST Framewo
 ## Setup Instructions
 1. Clone the Repository
 git clone https://https://github.com/AdityaSingh0472/college-management.git
+
 cd your-repo-name
 
 2. Create Virtual Environment
