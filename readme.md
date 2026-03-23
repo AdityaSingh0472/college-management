@@ -65,26 +65,17 @@ python -m venv venv
 
 Activate it:
 
-Windows:
+Windows: venv\Scripts\activate
 
-venv\Scripts\activate
-
-Mac/Linux:
-
-source venv/bin/activate
+Mac/Linux: source venv/bin/activate
 
 3. Install Dependencies
-pip install -r requirements.txt
+pip install django
 
 4. Configure Environment Variables
 
-Create a .env file and add:
-
-SECRET_KEY=your_secret_key
-DEBUG=True
-DB_NAME=your_db_name
-DB_USER=your_db_user
-DB_PASSWORD=your_password
+python -m venv venv
+venv\scripts\activate
 
 5. Apply Migrations
 python manage.py makemigrations
